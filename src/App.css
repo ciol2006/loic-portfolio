@@ -41,8 +41,35 @@ img {
   max-width: 100%;
 }
 
+.container-fluid {
+  background-color: #cedbe7;
+}
+
 .main-container {
-  background-image: url("./images/pexels-gdtography-911738.jpg");
+  height: fit-content;
+  background-image: url("./images/pexels-adrien-olichon-2387793.jpg");
   background-size: cover;
   padding: 1rem;
+}
+
+h1,
+h2 {
+  padding-top: 2rem;
+}
+
+p {
+  padding-top: 0rem;
+  margin-bottom: 0.1rem;
+}
+
+p,
+h1,
+h2,
+li {
+  color: #cedbe7;
+  text-align: center;
+}
+
+.resume-page {
+  background: none;
 }
