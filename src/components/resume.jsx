@@ -5,7 +5,8 @@ const Resume = () => {
     <body className="resume-page">
       <header id="site-header">
         <div className="container">
-          <h1> Loic Mas</h1>
+          <h1 className="myName"> Loïc Mas </h1>
+
           <h2>
             {" "}
             Conscientious, reliable individual who constenly continues building
@@ -25,7 +26,6 @@ const Resume = () => {
               <h1 className="post-title">Resume</h1>
             </header>
             <div>
-              tous mon bordel
               <h1>Professional experiences</h1>
               {/* first job description */}
               <h2>First aid Attendant</h2>
@@ -83,12 +83,34 @@ const Resume = () => {
               <p>Selkirk College</p>
               <p>2020</p>
               <h2>
-                <strong>First Aid/ Cpr C & AED</strong>
+                <strong>First Aid/ Cpr C &amp; AED</strong>
               </h2>
-              <p>Nelson & District Community Complex</p>
+              <p>Nelson &amp; District Community Complex</p>
               <p>2017</p>
             </div>
-            <footer> ciol2006@gmail.com</footer>
+            <footer>
+              {" "}
+              <ul className="links-logos">
+                <li>
+                  <a
+                    href="https://github.com/ciol2006/"
+                    title="Loic on GitHub"
+                    target="_blank"
+                  >
+                    <i className="fa fa-github-alt"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:ciol2006@gmail.com"
+                    title="E-mail Me"
+                    target="_blank"
+                  >
+                    <i className="fa fa-gmail-alt"></i>
+                  </a>
+                </li>
+              </ul>
+            </footer>
           </article>
         </div>
       </main>

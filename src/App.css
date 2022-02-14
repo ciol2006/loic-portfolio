@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
 .App {
   text-align: center;
 }
@@ -45,11 +47,15 @@ img {
   background-color: #cedbe7;
 }
 
-.main-container {
-  height: fit-content;
-  background-image: url("./images/pexels-adrien-olichon-2387793.jpg");
-  background-size: cover;
-  padding: 1rem;
+main h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 25rem;
+  height: 4px;
+  margin-left: -12.5rem;
+  background-color: #5a3242;
 }
 
 h1,
@@ -70,6 +76,97 @@ li {
   text-align: center;
 }
 
+.main-container {
+  height: fit-content;
+  background-image: url("./images/pexels-adrien-olichon-2387793.jpg");
+  background-size: cover;
+  padding: 1rem;
+}
+
+/* Css front-Page */
+.frontPage-container {
+  height: 100vh;
+}
+
+/* Css for About Me page */
+.about-me-page {
+  height: 100vh;
+  background-color: transparent;
+}
+
+.aboutMe-text-container {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+/* Css for Resume page */
+.resume-container {
+  margin: auto;
+  width: 50%;
+}
+
 .resume-page {
   background: none;
+}
+
+.myName,
+h1 {
+  font-family: "Josefin Sans", cursive;
+  letter-spacing: 0.13em;
+}
+
+/* css for logos */
+.fa {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-size: 100%;
+  background-position: center;
+  padding: 3rem;
+  border-radius: 30%;
+  display: block;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  background-repeat: no-repeat;
+}
+
+.links-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fa-github-alt {
+  background-image: url("./logos/Octocat.jpg");
+}
+
+.fa-gmail-alt {
+  background-image: url("./logos/Gmail_logo_PNG9.png");
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.fa-html-alt {
+  background-image: url("./logos/html.jpeg");
+}
+
+.fa-css-alt {
+  background-image: url("./logos/CSS_logo_PNG1.png");
+}
+
+.fa-js-alt {
+  background-image: url("./logos/jsLogo.png");
+}
+
+.fa-react-alt {
+  background-image: url("./logos/react.png");
+}
+
+.fa-mySql-alt {
+  background-image: url("./logos/mySql.jpeg");
 }

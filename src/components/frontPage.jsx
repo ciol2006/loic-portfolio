@@ -4,8 +4,9 @@ class FrontPage extends Component {
   state = {};
   render() {
     return (
-      <div className="container">
-        <h1>Loic Mas, Web /Front End Developer</h1>
+      <div className="frontPage-container">
+        <h1>Loïc Mas</h1>
+        <h2>Web /Front End Developer</h2>
       </div>
     );
   }
