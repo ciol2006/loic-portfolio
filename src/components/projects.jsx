@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 
 const Projects = () => {
-  return <h1>Projects</h1>;
+  return (
+    <div className="frontPage-container">
+      <h1>Projects</h1>
+    </div>
+  );
 };
 
 export default Projects;
