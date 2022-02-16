@@ -28,23 +28,23 @@ const AboutMe = () => {
         <ul className="logos">
           <li>
             <i className="fa fa-html-alt"></i>
-            <span className="caption">Html 5</span>
+            <figcaption className="caption">Html 5</figcaption>
           </li>
           <li>
             <i className="fa fa-css-alt"></i>
-            <span className="caption">Css</span>
+            <figcaption className="caption">Css</figcaption>
           </li>
           <li>
             <i className="fa fa-js-alt"></i>
-            <span className="caption">JavaScript</span>
+            <figcaption className="caption">JavaScript</figcaption>
           </li>
           <li>
             <i className="fa fa-react-alt"> </i>
-            <span className="caption">React</span>
+            <figcaption className="caption">React</figcaption>
           </li>
           <li>
             <i className="fa fa-mySql-alt"></i>
-            <span className="caption"> MySql </span>
+            <figcaption className="caption"> MySql </figcaption>
           </li>
         </ul>
       </div>

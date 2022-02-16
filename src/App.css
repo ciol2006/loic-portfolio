@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 
 .App {
   text-align: center;
@@ -68,6 +69,17 @@ p {
   margin-bottom: 0.1rem;
 }
 
+h1 {
+  font-family: "Josefin Sans", cursive;
+  letter-spacing: 0.13em;
+}
+
+h2,
+p,
+h3 {
+  font-family: "Barlow", sans-serif;
+}
+
 p,
 h1,
 h2,
@@ -77,12 +89,15 @@ li {
   text-align: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 .main-container {
-  height: auto;
+  height: 100%;
   background-image: url("./images/pexels-adrien-olichon-2387793.jpg");
   background-size: cover;
-
-  background-repeat: repeat-y;
+  background-repeat: repeat-y !important;
   padding: 1rem;
 }
 /* Css for Navbar */
@@ -94,11 +109,16 @@ li {
 }
 
 /* Css front-Page */
-.frontPage-container {
-  height: 75vh;
-  margin-top: 150px;
-  width: 100%;
+
+.front-Page {
+  background: transparent;
+  height: fit-content;
   line-height: 100%;
+  bottom: 0;
+}
+.frontPage-container {
+  height: 70vh;
+  margin-top: 130px;
 }
 
 .animation-frontPage {
@@ -133,14 +153,20 @@ li {
     top: 0px;
   }
 }
+
+.footer-frontPage {
+  height: 4.7vh;
+  bottom: 0;
+}
+
 .emailMe {
+  color: #7bbcce;
   -webkit-box-reflect: below 0px
-    linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+    linear-gradient(transparent, rgba(200, 213, 230, 0.671));
 }
 
 /* Css for About Me page */
 .about-me-page {
-  height: 100vh;
   background-color: transparent;
 }
 
@@ -149,6 +175,14 @@ li {
   margin-left: 3rem;
   text-align: center;
   padding-top: 3rem;
+  font-size: 20px;
+}
+
+.project-container {
+  background: transparent;
+  height: fit-content;
+  line-height: 100%;
+  bottom: 0;
 }
 
 /* Css for Resume page */
@@ -198,17 +232,17 @@ li {
 }
 
 .logos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
-  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
-.logos > div::before {
+/* .logos > div::before {
   content: "";
   padding-bottom: 100%;
   display: block;
-}
+} */
 
 .fa-html-alt {
   background-image: url("./logos/html.jpeg");
@@ -233,4 +267,5 @@ li {
 .caption {
   display: block;
   font-size: 25px;
+  padding-right: 25px;
 }
