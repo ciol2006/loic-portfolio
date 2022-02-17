@@ -85,7 +85,7 @@ h1,
 h2,
 h3,
 li {
-  color: #cedbe7;
+  color: #27d6ff;
   text-align: center;
 }
 
@@ -134,23 +134,15 @@ li {
 @keyframes sliding-in {
   0% {
     color: red;
-    left: 0px;
-    top: 0px;
   }
   50% {
     color: blue;
-    left: 200px;
-    top: 200px;
   }
   75% {
     color: green;
-    left: 0px;
-    top: 200px;
   }
   100% {
     color: red;
-    left: 0px;
-    top: 0px;
   }
 }
 
@@ -160,7 +152,7 @@ li {
 }
 
 .emailMe {
-  color: #7bbcce;
+  color: #a6c8d1;
   -webkit-box-reflect: below 0px
     linear-gradient(transparent, rgba(200, 213, 230, 0.671));
 }
@@ -168,6 +160,7 @@ li {
 /* Css for About Me page */
 .about-me-page {
   background-color: transparent;
+  height: 100vh;
 }
 
 .aboutMe-text-container {
@@ -178,9 +171,11 @@ li {
   font-size: 20px;
 }
 
+/* css for Project page */
+
 .project-container {
+  height: 100vh;
   background: transparent;
-  height: fit-content;
   line-height: 100%;
   bottom: 0;
 }
@@ -237,12 +232,6 @@ li {
   gap: 1.5rem;
   justify-content: center;
 }
-
-/* .logos > div::before {
-  content: "";
-  padding-bottom: 100%;
-  display: block;
-} */
 
 .fa-html-alt {
   background-image: url("./logos/html.jpeg");
