@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/loic-portfolio/static/css/main.db0cc59a.css",
+    "main.css": "/loic-portfolio/static/css/main.8b853c2e.css",
     "main.js": "/loic-portfolio/static/js/main.cc3371c1.js",
     "static/js/787.d1a4c7f7.chunk.js": "/loic-portfolio/static/js/787.d1a4c7f7.chunk.js",
     "static/media/pexels-adrien-olichon-2387793.jpg": "/loic-portfolio/static/media/pexels-adrien-olichon-2387793.258bf26226162f79a8ad.jpg",
@@ -8,12 +8,12 @@
     "static/media/Gmail_logo_PNG9.png": "/loic-portfolio/static/media/Gmail_logo_PNG9.448828b641323441f7cb.png",
     "static/media/CSS_logo_PNG1.png": "/loic-portfolio/static/media/CSS_logo_PNG1.d4af141548f0421f702a.png",
     "index.html": "/loic-portfolio/index.html",
-    "main.db0cc59a.css.map": "/loic-portfolio/static/css/main.db0cc59a.css.map",
+    "main.8b853c2e.css.map": "/loic-portfolio/static/css/main.8b853c2e.css.map",
     "main.cc3371c1.js.map": "/loic-portfolio/static/js/main.cc3371c1.js.map",
     "787.d1a4c7f7.chunk.js.map": "/loic-portfolio/static/js/787.d1a4c7f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db0cc59a.css",
+    "static/css/main.8b853c2e.css",
     "static/js/main.cc3371c1.js"
   ]
 }
