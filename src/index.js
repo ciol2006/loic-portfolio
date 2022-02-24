@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  <React.StrictMode >
+    <BrowserRouter basename="/loic">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
