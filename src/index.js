@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap.js";
 
 ReactDOM.render(
   <React.StrictMode >
-    <BrowserRouter basename="/loic">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
