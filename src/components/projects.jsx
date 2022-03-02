@@ -5,6 +5,7 @@ const Projects = () => {
     <body className="project-container">
       <div className="frontPage-container">
         <h1>Projects</h1>
+        <h2>Work in progress</h2>
       </div>
     </body>
   );
