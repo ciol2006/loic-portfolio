@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 ReactDOM.render(
-  <React.StrictMode >
+  <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
