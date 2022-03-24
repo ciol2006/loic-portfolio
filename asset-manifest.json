@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/loic-portfolio/static/css/main.33177bd5.css",
-    "main.js": "/loic-portfolio/static/js/main.9cc81c4f.js",
+    "main.css": "/loic-portfolio/static/css/main.be4ebe3e.css",
+    "main.js": "/loic-portfolio/static/js/main.1c2f4012.js",
     "static/js/787.d1a4c7f7.chunk.js": "/loic-portfolio/static/js/787.d1a4c7f7.chunk.js",
     "static/media/pexels-adrien-olichon-2387793.jpg": "/loic-portfolio/static/media/pexels-adrien-olichon-2387793.258bf26226162f79a8ad.jpg",
     "static/media/Octocat.jpg": "/loic-portfolio/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
+    "static/media/Tic_Tac_Toe.png": "/loic-portfolio/static/media/Tic_Tac_Toe.ff7a99f6a908d9fb908b.png",
     "static/media/Gmail_logo_PNG9.png": "/loic-portfolio/static/media/Gmail_logo_PNG9.448828b641323441f7cb.png",
     "static/media/CSS_logo_PNG1.png": "/loic-portfolio/static/media/CSS_logo_PNG1.d4af141548f0421f702a.png",
     "index.html": "/loic-portfolio/index.html",
-    "main.33177bd5.css.map": "/loic-portfolio/static/css/main.33177bd5.css.map",
-    "main.9cc81c4f.js.map": "/loic-portfolio/static/js/main.9cc81c4f.js.map",
+    "main.be4ebe3e.css.map": "/loic-portfolio/static/css/main.be4ebe3e.css.map",
+    "main.1c2f4012.js.map": "/loic-portfolio/static/js/main.1c2f4012.js.map",
     "787.d1a4c7f7.chunk.js.map": "/loic-portfolio/static/js/787.d1a4c7f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33177bd5.css",
-    "static/js/main.9cc81c4f.js"
+    "static/css/main.be4ebe3e.css",
+    "static/js/main.1c2f4012.js"
   ]
 }
