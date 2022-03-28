@@ -194,16 +194,20 @@ li {
 
 .projects_grid {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  border: none;
-  outline: none;
-  background: none;
+  align-items: center;
   cursor: pointer;
+  gap: 1.5rem;
 }
 
-.Tic_Tac_Toe {
-  background-image: url("./images/Tic_Tac_Toe.png");
+.tic_Tac_Toe {
+  background-image: url("./images/Tic_Tac_Toe.jpg");
+  background-size: cover;
+  padding: 20vh;
+  display: block;
+  margin-top: 2rem !important;
+  margin-right: 30;
 }
 /* Css for Resume page */
 
