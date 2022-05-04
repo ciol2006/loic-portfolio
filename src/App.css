@@ -15,6 +15,10 @@
   }
 }
 
+.body {
+  height: 100vh !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -77,6 +81,7 @@ h2,
 p,
 h3 {
   font-family: "Barlow", sans-serif;
+  font-size: 23px;
 }
 
 p,
@@ -84,7 +89,8 @@ h1,
 h2,
 h3,
 li {
-  color: #ffc747;
+  color: #253c4e;
+  /* color: #ffc747; */
   text-align: center;
 }
 
@@ -94,7 +100,8 @@ li {
 
 .main-container {
   height: 100%;
-  background-image: url("./images/pexels-adrien-olichon-2387793.jpg");
+  background-image: url("./images/pexels-tbee-82256.jpg");
+  /* ("./images/pexels-adrien-olichon-2387793.jpg"); */
   background-size: cover;
   background-repeat: repeat-y !important;
   padding: 1rem;
@@ -121,13 +128,13 @@ li {
 
 .front-Page {
   background: transparent;
-  height: fit-content;
+  height: 90vh;
   line-height: 100%;
   bottom: 0;
 }
 
 .frontPage-container {
-  height: 70vh;
+  margin-bottom: 30vh;
   margin-top: 130px;
 }
 
@@ -140,31 +147,43 @@ li {
   animation-delay: 2s;
   animation-timing-function: ease-in-out;
 }
+.aboutMeFrontPage {
+  margin: auto;
+}
+.email-me {
+  border-style: inset;
+  border: #e9ecf2 1px;
+}
 
 @keyframes sliding-in {
   0% {
-    color: red;
+    color: rgb(203, 241, 243);
   }
   50% {
-    color: blue;
+    color: rgb(133, 166, 211);
   }
   75% {
-    color: green;
+    color: rgb(73, 75, 203);
   }
   100% {
-    color: red;
+    color: rgb(29, 23, 190);
   }
 }
 
 .footer-frontPage {
-  height: 20vh;
-  bottom: 0;
+  margin: auto;
+  max-width: 60%;
+  border-radius: 12px;
+  border: 2px solid rgb(92, 91, 91);
+  background-color: rgba(200, 213, 230, 0.65);
 }
 
-.emailMe {
-  color: #a6c8d1;
-  -webkit-box-reflect: below 0px
-    linear-gradient(transparent, rgba(200, 213, 230, 0.671));
+.email-me {
+  text-decoration: none !important;
+}
+
+.email-me:hover {
+  cursor: pointer;
 }
 
 /* Css for About Me page */

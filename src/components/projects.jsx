@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const Projects = () => {
   return (
-    <body className="project-container">
+    <div className="project-container">
       <div className="frontPage-container">
         <h1>Projects</h1>
         <ul className="projects_grid">
@@ -20,7 +20,7 @@ const Projects = () => {
           </li>
         </ul>
       </div>
-    </body>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const Resume = () => {
   return (
-    <body className="resume-page">
+    <div className="resume-page">
       <header id="site-header">
         <div className="container">
           <h1 className="myName"> Loïc Mas </h1>
@@ -110,7 +110,7 @@ const Resume = () => {
           </footer>
         </article>
       </div>
-    </body>
+    </div>
   );
 };
 

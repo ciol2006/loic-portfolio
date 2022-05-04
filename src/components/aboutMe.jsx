@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const AboutMe = () => {
   return (
-    <body className="about-me-page">
+    <div className="about-me-page">
       <div className="aboutMe-text-container">
         <p>My name is Loïc.</p>{" "}
         <p>
@@ -57,7 +57,7 @@ const AboutMe = () => {
           </li>
         </ul>
       </div>
-    </body>
+    </div>
   );
 };
 
